@@ -2,19 +2,25 @@
 
 Ready-to-use PoGS-like icon sets for World of Tanks — re-packed game atlases and contour icons that can be dropped straight into the game directory.
 
-Built from **WoT 2.3.0.0** data (Wargaming API). Updated periodically to follow game updates.
+Built from **WoT 2.3.0.0** resources and whatever data could be picked from Wargaming API. 
+Updated periodically to follow game updates.
 
 ## What is this?
 
-Icon sets are a type of WoT mod that replace the default vehicle icons on the battle screen and in the garage.
+Icon sets are a type of WoT mod that replaces the default vehicle icons on the battle screen.
 
-These are **not** the original PoGS icons — they are a replica built with a different toolset. A pixel-perfect match is not the goal; this is the subset of varieties the author actually uses. Anyone is welcome to use them or open an issue to request a missing variety — no promises, but we'll see what can be done.
+These are **not** the original PoGS icons — they are a replica built with a different toolset. 
+A pixel-perfect match was not the goal, good enough is enough; this is the subset of varieties 
+the author actually uses. 
+
+Anyone is welcome to use them or open an issue to request a missing variety — no promises, 
+but we'll see what can be done.
 
 ## Available Sets
 
-| Directory | Description |
-|-----------|-------------|
-| `max-fsr-rld-vr` | MAX-FSR-RLD-VR |
+| Directory              | Description          |
+|------------------------|----------------------|
+| `color-dmg-fsr-rld-vr` | DMG-FSR-RLD-VR Color |
 
 ## How to Use
 
