@@ -1,0 +1,54 @@
+# WoT PoGS-like Icon Sets
+
+Ready-to-use PoGS-like icon sets for World of Tanks — re-packed game atlases and contour icons that can be dropped straight into the game directory.
+
+Built from **WoT 2.3.0.0** data (Wargaming API). Updated periodically to follow game updates.
+
+## What is this?
+
+Icon sets are a type of WoT mod that replace the default vehicle icons on the battle screen and in the garage.
+
+These are **not** the original PoGS icons — they are a replica built with a different toolset. A pixel-perfect match is not the goal; this is the subset of varieties the author actually uses. Anyone is welcome to use them or open an issue to request a missing variety — no promises, but we'll see what can be done.
+
+## Available Sets
+
+| Directory | Description |
+|-----------|-------------|
+| `max-fsr-rld-vr` | MAX-FSR-RLD-VR |
+
+## How to Use
+
+### Manual install
+
+Copy the `flash` folder from the desired variety into your game directory:
+
+```
+{variety}/res_mods/version/gui/flash
+  →
+{game_directory}/res_mods/{version}/gui/flash
+```
+
+### Aslain's Mod Pack
+
+Pack the `res_mods` folder contents into a **7-zip** archive and place it in:
+
+```
+{game_directory}/Aslain_Modpack/Custom_mods/
+```
+
+It will then be automatically re-installed on every modpack update. See the Aslain's forum thread for full details on Custom_mods usage.
+
+## Credits
+
+PoGS icons were originally created and maintained by a community of authors. The forum where they were originally announced is gone, and not all names could be recovered. Known contributors:
+
+- **Vit4liy (Soloviyko)** — [github.com/Vit4liy/WoT-PogsIconSet](https://github.com/Vit4liy/WoT-PogsIconSet)
+- **Pavel Maca** — [github.com/pavelmaca/WoT-PogsIconSet](https://github.com/pavelmaca/WoT-PogsIconSet)
+- **Grepa**
+- **Oxmaster**
+
+Apologies to anyone missed — open an issue or ping me and I'll add you to the credits.
+
+---
+
+GL, HF
