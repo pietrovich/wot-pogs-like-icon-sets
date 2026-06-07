@@ -58,3 +58,5 @@ Apologies to anyone missed — open an issue or ping me and I'll add you to the 
 ---
 
 GL, HF
+
+[![wtfpl-badge-2.png](wtfpl-badge-2.png)](./LICENSE)
