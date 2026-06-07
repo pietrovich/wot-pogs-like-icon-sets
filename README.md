@@ -18,9 +18,10 @@ but we'll see what can be done.
 
 ## Available Sets
 
-| Directory              | Description          |
-|------------------------|----------------------|
-| `color-dmg-fsr-rld-vr` | DMG-FSR-RLD-VR Color |
+| Directory              | Description                  |
+|------------------------|------------------------------|
+| `color-dmg-fsr-rld-vr` | DMG-FSR-RLD-VR Color         |
+| `clear`                | Minimalistic "Clear" variety |
 
 ## How to Use
 
