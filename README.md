@@ -2,8 +2,8 @@
 
 Ready-to-use PoGS-like icon sets for World of Tanks — re-packed game atlases and contour icons that can be dropped straight into the game directory.
 
-Built from **WoT 2.3.0.0** resources and whatever data could be picked from Wargaming API. 
-Updated periodically to follow game updates.
+Built with [pie-wot](https://github.com/pietrovich/wot-utils) cli from **WoT 2.3.0.0** resources and whatever data could 
+be picked from Wargaming API. Updated periodically to follow game updates.
 
 ## What is this?
 
