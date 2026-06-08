@@ -43,7 +43,7 @@ Pack the `res_mods` folder contents into a **7-zip** archive and place it in:
 {game_directory}/Aslain_Modpack/Custom_mods/
 ```
 
-It will then be automatically re-installed on every modpack update. See the Aslain's forum thread for full details on Custom_mods usage.
+It will then be automatically re-installed on every modpack update. See the README in Custom_mods directory for more details on usage.
 
 ## Credits
 
