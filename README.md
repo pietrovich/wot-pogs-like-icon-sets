@@ -49,10 +49,11 @@ It will then be automatically re-installed on every modpack update. See the READ
 
 PoGS icons were originally created and maintained by a community of authors. The forum where they were originally announced is gone, and not all names could be recovered. Known contributors:
 
-- **Vit4liy (Soloviyko)** — [github.com/Vit4liy/WoT-PogsIconSet](https://github.com/Vit4liy/WoT-PogsIconSet)
-- **Pavel Maca** — [github.com/pavelmaca/WoT-PogsIconSet](https://github.com/pavelmaca/WoT-PogsIconSet)
+- **Pogs**
 - **Grepa**
 - **Oxmaster**
+- **Pavel Maca** — [github.com/pavelmaca/WoT-PogsIconSet](https://github.com/pavelmaca/WoT-PogsIconSet)
+- **Vit4liy (Soloviyko)** — [github.com/Vit4liy/WoT-PogsIconSet](https://github.com/Vit4liy/WoT-PogsIconSet)
 
 Apologies to anyone missed — open an issue or ping me and I'll add you to the credits.
 
