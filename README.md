@@ -1,4 +1,4 @@
-# WoT PoGS-like Icon Sets
+# WoT PogS-like Icon Sets
 
 Ready-to-use PogS-like icon sets for World of Tanks — re-packed game atlases and contour icons that can be dropped straight into the game directory.
 
