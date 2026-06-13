@@ -1,0 +1,32 @@
+{
+  "name": "wot-pogs-like-icon-sets",
+  "version": "1.0.0",
+  "description": "Various sets of PogS-like icons for World of Tanks game",
+  "keywords": [
+    "wot",
+    "world",
+    "of",
+    "tanks",
+    "pogs",
+    "icons",
+    "mod"
+  ],
+  "homepage": "https://github.com/pietrovich/wot-pogs-like-icon-sets#readme",
+  "bugs": {
+    "url": "https://github.com/pietrovich/wot-pogs-like-icon-sets/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pietrovich/wot-pogs-like-icon-sets.git"
+  },
+  "license": "WTFPL",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "build": "pie-wot bake all --out ./out --prune --fresh"
+  },
+  "dependencies": {
+    "@pietrovich/wot-utils": "^0.2.3"
+  }
+}

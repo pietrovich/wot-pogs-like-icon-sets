@@ -23,7 +23,7 @@ but we'll see what can be done.
 | `color-dmg-fsr-rld-vr` | DMG-FSR-RLD-VR Color         |
 | `clear`                | Minimalistic "Clear" variety |
 
-## How to Use
+## How to Use pre-baked icon sets
 
 ### Manual install
 
@@ -37,13 +37,30 @@ Copy the `flash` folder from the desired variety into your game directory:
 
 ### Aslain's Mod Pack
 
-Pack the `res_mods` folder contents into a **7-zip** archive and place it in:
+Copy set's `res_mods` folder to `{game_directory}/Aslain_Modpack/Custom_mods` (there will be a folder with the same 
+name already, just overwrite the conflicting files).
 
-```
-{game_directory}/Aslain_Modpack/Custom_mods/
-```
+It will then be automatically re-installed on every modpack update. See the README.txt in `{game_directory}/Aslain_Modpack/Custom_mods/README.txt` for more details.
 
-It will then be automatically re-installed on every modpack update. See the README in Custom_mods directory for more details on usage.
+## How to re-bake icon sets
+
+`npm i && npm run build -- --game-dir <game_directory>` will do the trick.
+
+Though you'll need some game resources or game installation at hands and a valid 
+Wargaming App ID to fetch data from Wargaming API. If you don't have one, you can create it 
+[here](https://developers.wargaming.net/applications/), just be sure to select "Mobile" type app. 
+Data is cached locally, so continuous re-baking will not hammer WG servers and will be much faster after the first run.
+
+Copy `.env.example` to `.env` and fill in the required values.
+
+`--game-dir` is optional, needed only to find and extract necessary game's resources. 
+If you have `battleAtlas.dds`, `battleAtlas.xml`, `vehicleMarkerAtlas.dds` and `vehicleMarkerAtlas.xml` 
+extracted already you can either drop them into `./out/.atlases/` or pass the path to them via `--atlas-dir` option.
+
+Newly baked icon sets will be saved to `./out/<set-name>`.
+
+P.S.: Wipe WG data cache manually if you see some stale vehicle stats or after some major/re-balance game updates to 
+keep vehicle stats fresh.
 
 ## Credits
 
