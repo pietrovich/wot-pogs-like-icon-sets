@@ -5,16 +5,18 @@ endef
 .PHONY: build
 build: ./out/color-DMG-RLD-FSR-VR
 
-./out/color:
-# `/mnt/hgfs/wot` is how my windows installation of WotT is mounted inside Linux VM i use to build icons
-# adjust path according to your setup (whatever you have, WSL2 or make installed into native windows git-bash)
+./out/color-DMG-RLD-FSR-VR:
+# `/mnt/hgfs/wot` is how my windows installation of WoT is mounted inside Linux VM i use to build icons.
+# adjust path according to your setup (whatever you have, WSL2 or a `make` installed into native windows git-bash)
 	@npm run build -- --fresh --game-dir /mnt/hgfs/wot/res
 
 .PHONY: clean
 clean:
 	@rm -rf ./out/.atlases
-	@rm -rf ./out/color
-	@rm -rf ./out/clear
+	@rm -rf ./out/clear-DMG-RLD-FSR-VR
+	@rm -rf ./out/clear-simple
+	@rm -rf ./out/color-DMG-RLD-FSR-VR
+	@rm -rf ./out/color-simple
 
 .PHONY: dist
 dist: build
