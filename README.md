@@ -39,7 +39,7 @@ Copy the `flash` folder from the desired variety into your game directory:
 {game_directory}/res_mods/{version}/gui/flash
 ```
 
-### Aslain's Mod Pack
+### [Aslain's Mod Pack](https://aslain.com/index.php?/topic/13-download-%E2%98%85-world-of-tanks-%E2%98%85-modpack/)
 
 Copy set's `res_mods` folder to `{game_directory}/Aslain_Modpack/Custom_mods` (there will be a folder with the same 
 name already, just overwrite the conflicting files).
