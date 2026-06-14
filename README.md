@@ -18,10 +18,14 @@ but we'll see what can be done.
 
 ## Available Sets
 
-| Directory              | Description                  |
-|------------------------|------------------------------|
-| `color-dmg-fsr-rld-vr` | DMG-FSR-RLD-VR Color         |
-| `clear`                | Minimalistic "Clear" variety |
+| Directory                   | Description                    |                                                                                                                                 |
+|-----------------------------|--------------------------------|---------------------------------------------------------------------------------------------------------------------------------|
+| `PogS-color-simple`         | Minimalistic "Color" variety   | ![china-Ch01_Type59.png](PogS-color-simple/res_mods/version/gui/flash/maps/icons/vehicle/contour/china-Ch01_Type59.png)         |
+| `PogS-clear-simple`         | Minimalistic "Clear" variety   | ![china-Ch01_Type59.png](PogS-clear-simple/res_mods/version/gui/flash/maps/icons/vehicle/contour/china-Ch01_Type59.png)         |
+| `PogS-color-dmg-fsr-rld-vr` | DMG-FSR-RLD-VR "Color" variety | ![china-Ch01_Type59.png](PogS-color-DMG-RLD-FSR-VR/res_mods/version/gui/flash/maps/icons/vehicle/contour/china-Ch01_Type59.png) |
+| `PogS-clear-dmg-fsr-rld-vr` | DMG-FSR-RLD-VR "Clear" variety | ![china-Ch01_Type59.png](PogS-clear-DMG-RLD-FSR-VR/res_mods/version/gui/flash/maps/icons/vehicle/contour/china-Ch01_Type59.png) |
+
+
 
 ## How to Use pre-baked icon sets
 
