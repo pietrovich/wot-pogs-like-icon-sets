@@ -24,9 +24,12 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "build": "pie-wot bake all --out ./out --prune --fresh"
+    "build": "pie-wot bake all --out ./out --prune"
   },
   "dependencies": {
-    "@pietrovich/wot-utils": "^0.2.3"
+    "@pietrovich/wot-utils": "^0.2.5"
+  },
+  "allowScripts": {
+    "sharp@0.34.5": true
   }
 }

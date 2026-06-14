@@ -3,10 +3,12 @@ define rsync_filtered
 endef
 
 .PHONY: build
-build: ./out/color
+build: ./out/color-DMG-RLD-FSR-VR
 
 ./out/color:
-	@npm run build -- --game-dir /mnt/hgfs/wot/res
+# `/mnt/hgfs/wot` is how my windows installation of WotT is mounted inside Linux VM i use to build icons
+# adjust path according to your setup (whatever you have, WSL2 or make installed into native windows git-bash)
+	@npm run build -- --fresh --game-dir /mnt/hgfs/wot/res
 
 .PHONY: clean
 clean:
@@ -16,6 +18,12 @@ clean:
 
 .PHONY: dist
 dist: build
-	@$(call rsync_filtered,./out/clear/res_mods/,./clear/res_mods/)
-	@$(call rsync_filtered,./out/color/res_mods/,./color-dmg-fsr-rld-vr/res_mods/)
+	@mkdir -p ./PogS-clear-simple/res_mods
+	@mkdir -p ./PogS-clear-DMG-RLD-FSR-VR/res_mods
+	@mkdir -p ./PogS-color-simple/res_mods
+	@mkdir -p ./PogS-color-DMG-RLD-FSR-VR/res_mods
+	@$(call rsync_filtered,./out/clear-simple/res_mods/,./PogS-clear-simple/res_mods/)
+	@$(call rsync_filtered,./out/color-simple/res_mods/,./PogS-color-simple/res_mods/)
+	@$(call rsync_filtered,./out/clear-DMG-RLD-FSR-VR/res_mods/,./PogS-clear-DMG-RLD-FSR-VR/res_mods/)
+	@$(call rsync_filtered,./out/color-DMG-RLD-FSR-VR/res_mods/,./PogS-color-DMG-RLD-FSR-VR/res_mods/)
 	echo "Icons were built and distributed into corresponding directories"
