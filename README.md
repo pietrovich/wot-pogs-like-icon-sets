@@ -75,6 +75,7 @@ PoGS icons were originally created and maintained by a community of authors. The
 - **Oxmaster**
 - **Pavel Maca** — [github.com/pavelmaca/WoT-PogsIconSet](https://github.com/pavelmaca/WoT-PogsIconSet)
 - **Vit4liy (Soloviyko)** — [github.com/Vit4liy/WoT-PogsIconSet](https://github.com/Vit4liy/WoT-PogsIconSet)
+- @Aslain for the great [Mod-pack](https://aslain.com/index.php?/topic/13-download-%E2%98%85-world-of-tanks-%E2%98%85-modpack/)
 
 Apologies to anyone missed — open an issue or ping me and I'll add you to the credits.
 
