@@ -4,7 +4,7 @@ Ready-to-use PogS-like icon sets for World of Tanks — re-packed game atlases a
 straight into the game directory. Available as raw patched resources (see PogS-* directories) or packed into `.
 wotmod` format (check latest [Releases](https://github.com/pietrovich/wot-pogs-like-icon-sets/releases/latest)).
 
-Built with [pie-wot](https://github.com/pietrovich/wot-utils) cli from **WoT 2.3.0.1** resources and whatever data could
+Built with [pie-wot](https://github.com/pietrovich/wot-utils) cli from **WoT 2.3.1.0** resources and whatever data could
 be picked from Wargaming API. Updated periodically to follow game updates.
 
 ## What is this?
