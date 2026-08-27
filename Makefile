@@ -33,19 +33,8 @@ dist: build
 
 .PHONY: release
 release: build
-	@rm -rf ./out/.release
-	@mkdir -p ./release
-	@mkdir -p ./out/.release/clear-simple/res
-	@mkdir -p ./out/.release/clear-DMG-RLD-FSR-VR/res
-	@mkdir -p ./out/.release/color-simple/res
-	@mkdir -p ./out/.release/color-DMG-RLD-FSR-VR/res
-	@$(call rsync_filtered,./out/clear-simple/res_mods/version/gui/,./out/.release/clear-simple/res/gui/)
-	@$(call rsync_filtered,./out/color-simple/res_mods/version/gui/,./out/.release/color-simple/res/gui/)
-	@$(call rsync_filtered,./out/clear-DMG-RLD-FSR-VR/res_mods/version/gui/,./out/.release/clear-DMG-RLD-FSR-VR/res/gui/)
-	@$(call rsync_filtered,./out/color-DMG-RLD-FSR-VR/res_mods/version/gui/,./out/.release/color-DMG-RLD-FSR-VR/res/gui/)
-	@cd ./out/.release/clear-simple && zip -r -X ../../../release/PogS-clear-simple.wotmod res
-	@cd ./out/.release/color-simple && zip -r -X ../../../release/PogS-color-simple.wotmod res
-	@cd ./out/.release/clear-DMG-RLD-FSR-VR && zip -r -X ../../../release/PogS-clear-DMG-RLD-FSR-VR.wotmod res
-	@cd ./out/.release/color-DMG-RLD-FSR-VR && zip -r -X ../../../release/PogS-color-DMG-RLD-FSR-VR.wotmod res
-	@rm -rf ./out/.release
+	@cd ./out/clear-simple && zip -r -X -0 ../../release/PogS-clear-simple.zip res_mods
+	@cd ./out/color-simple && zip -r -X -0 ../../release/PogS-color-simple.zip res_mods
+	@cd ./out/clear-DMG-RLD-FSR-VR && zip -r -X -0 ../../release/PogS-clear-DMG-RLD-FSR-VR.zip res_mods
+	@cd ./out/color-DMG-RLD-FSR-VR && zip -r -X -0 ../../release/PogS-color-DMG-RLD-FSR-VR.zip res_mods
 	echo "Release archives were created in ./release"

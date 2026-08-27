@@ -41,7 +41,7 @@ Copy the `flash` folder from the desired variety into your game directory:
 
 ### [Aslain's Mod Pack](https://aslain.com/index.php?/topic/13-download-%E2%98%85-world-of-tanks-%E2%98%85-modpack/)
 
-Copy set's `res_mods` folder or corresponding `.wotmod` pack from [Releases](https://github.com/pietrovich/wot-pogs-like-icon-sets/releases/latest) 
+Copy set's `res_mods` folder or corresponding `.zip` pack from [Releases](https://github.com/pietrovich/wot-pogs-like-icon-sets/releases/latest) 
 to `{game_directory}/Aslain_Modpack/Custom_mods` (there will be a folder with the same name already, 
 simply overwrite the conflicting files).
 
